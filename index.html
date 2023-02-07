@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELLO</title>
+</head>
+<body> 
+    <h1 id="resultText"></h1>
+    <script>
+
+        let response = prompt ("Do You Still LOVE me? Type yes or no");
+        let outputText= "";
+
+        if (response=="yes"){
+            outputText = "MAHAL NA MAHAL KITA";
+        }else if (response="no"){
+            outputText= "Kawawa naman ako";
+        }else{
+            outputText = "please type yes or no!!";
+        }
+
+        document.getElementById("resultText").innerHTML = outputText;
+    </script>
+</body>
+</html>
